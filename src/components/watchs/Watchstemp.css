@@ -59,3 +59,14 @@
     cursor: pointer;
   }
   
+  @media only screen and (max-width: 1340px) and (min-width: 992px)  {
+    .movie-cards {
+        padding-right: 65px;
+        width: 250px;
+    }
+    .movie-cards img {
+      width: 240px;
+      position: relative;
+      right: 10px;
+    }
+}
