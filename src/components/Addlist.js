@@ -17,7 +17,7 @@ function Addlist() {
     setMovie(event.target.value);
   };
 
-  const url = `http://www.omdbapi.com/?s=${movie}&apikey=bad4f230`;
+  const url = `https://www.omdbapi.com/?s=${movie}&apikey=bad4f230`;
 
   const callmovie = () => {
     axios.get(url).then((res) => {
